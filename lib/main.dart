@@ -44,18 +44,18 @@ class ProductListScreen extends StatelessWidget {
                   return Card(
                     child: ListTile(
                       leading: SizedBox(
-                        width: 50.0, // Fixed width for the leading widget
-                        height: 50.0, // Fixed height for the leading widget
+                        width: 50.0,
+                        height: 50.0,
                         child: product.productImageUrls.isNotEmpty
                             ? Image.network(
                           product.productImageUrls.first,
-                          width: 50, // Adjust as needed
-                          height: 50, // Adjust as needed
+                          width: 50,
+                          height: 50,
                           fit: BoxFit.cover,
                         )
                             : const Placeholder(
-                          fallbackWidth: 50, // Adjust as needed
-                          fallbackHeight: 50, // Adjust as needed
+                          fallbackWidth: 50,
+                          fallbackHeight: 50,
                         ),
                       ),
                       title: Text(product.name),
@@ -67,7 +67,7 @@ class ProductListScreen extends StatelessWidget {
                         ],
                       ),
                       onTap: () {
-                        // Handle tap on product if needed
+
                       },
                     ),
                   );

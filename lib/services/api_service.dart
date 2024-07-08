@@ -19,7 +19,7 @@ class ApiService {
         // Parse the JSON response body
         List<dynamic> productsJson = json.decode(response.body)['items'];
 
-        // Convert JSON objects to Product objects using map and toList
+
         List<Product> products = productsJson.map((json) => Product.fromJson(json, baseUrl)).toList();
 
         print('Parsed products: $products');
@@ -56,7 +56,6 @@ class Product {
   factory Product.fromJson(Map<String, dynamic> json, String baseUrl) {
     List<String> productImageUrls = [];
 
-    // Extract product image URLs if available
     if (json['photos'] != null && json['photos'] is List) {
       productImageUrls = List<String>.from(json['photos'].map((photo) {
         if (photo['url'] is String) {
@@ -67,7 +66,7 @@ class Product {
       }));
     }
 
-    // Extract current price
+
     double currentPrice = 0.0;
     if (json['current_price'] != null && json['current_price'] is List) {
       var priceData = json['current_price'][0];
