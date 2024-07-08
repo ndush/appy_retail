@@ -1,17 +1,18 @@
 # appy_retail
 
-A new Flutter project.
+A product list app
 
-## Getting Started
+## Features
+View a list of products.
+## Setup Instructions
+Clone the repository.
+Open the project in Android Studio.
+Build and run the app on an Android device or emulator.
+## Screenshots
 
-This project is a starting point for a Flutter application.
+![Screenshot_20240709_015117](https://github.com/ndush/appy_retail/assets/13904670/8956b64c-a953-41ec-b17c-7e850db74d76)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# appy_retail
+## APK Download
+https://drive.google.com/file/d/1WVu0i9_LCGVbd6WdMrGySAFl5OF74oil/view?usp=sharing
+## Virtualized Demo
+https://appetize.io/app/b_stk5xlyhem7awnixo3aodcbsby
